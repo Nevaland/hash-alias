@@ -1,0 +1,40 @@
+html,
+body {
+  width: 357px;
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header {
+}
+.header__title {
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+ul.app-content__alias-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+  width: 100%;
+  margin: 20px;
+}
+
+/* ul.app-content__alias-list li:before {
+  content: ">";
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 5px 6px 0px;
+} */

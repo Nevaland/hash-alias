@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <button id="changeColor"></button>
+    <div class="app">
+      <div class="app-header">
+        <span class="app-header__title">Hash Alias</span>
+      </div>
+      <div class="app-content">
+        <ul class="app-content__alias-list"></ul>
+        <button id="buttonReplace">Replace</button>
+      </div>
+    </div>
     <script src="popup.js"></script>
   </body>
 </html>
